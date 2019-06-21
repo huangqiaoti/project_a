@@ -16,5 +16,15 @@ namespace test0621_githubPractice
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Text = "OK 1";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Text = "OK 2";
+        }
     }
 }
